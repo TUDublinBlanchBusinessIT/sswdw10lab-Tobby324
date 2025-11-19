@@ -14,7 +14,7 @@ echo $_SESSION['passengerSN'];
 echo "<BR>";
 
 // if the luggage session variable is on
-if (isset($_SESSION['luggage']) && $_SESSION['luggage'] == 1) {
+if (isset($_SESSION['luggage'])) {
 
     //echo the amount of bags under ten kilos the passenger is bringing
     echo $_SESSION['subTenKG'];
